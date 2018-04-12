@@ -65,7 +65,7 @@ NetNodeConfig::NetNodeConfig() {
   bindPort = 0;
   externalPort = 0;
   allowLocalIp = false;
-  hideMyPort = false;
+  hideMyPort = true;
   configFolder = Tools::getDefaultDataDirectory();
   testnet = false;
 }
