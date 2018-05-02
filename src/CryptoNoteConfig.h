@@ -2,7 +2,7 @@
 // Copyright (c) 2014-2018, The Monero project
 // Copyright (c) 2014-2018, The Forknote developers
 // Copyright (c) 2016-2018, The Karbowanec developers
-// Copyright (c) 2018, The Novocoin developers
+// Copyright (c) 2018, The SiZcoin developers
 //
 // This file is part of Bytecoin.
 //
@@ -26,7 +26,7 @@
 namespace CryptoNote {
 namespace parameters {
 
-const uint64_t DIFFICULTY_TARGET                             = 140; // seconds
+const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
 const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
@@ -95,7 +95,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "novocoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001edeb82bdef9804029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210166a926bb35036afdd70fe45c360fb50e1c4a8615410e6bc1ca608c990dd0f375";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
@@ -134,7 +134,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 const char* const SEED_NODES[] = { 
   "35.196.5.67:18666",
-  "35.196.108.133:18666"
+  "35.231.87.72:18666"
 };
 
 struct CheckpointData {
